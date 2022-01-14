@@ -1,6 +1,6 @@
 View(df)
 
-install.packages("tidyverse")
+#install.packages("tidyverse")
 library(tidyverse)
 
 
@@ -12,3 +12,6 @@ View(mahadf)
 
 updf <-  df %>% filter(df$State == "Uttar Pradesh")
 View(updf)
+
+bihardf <- df %>% filter(df$State == "Bihar")
+View(bihardf)

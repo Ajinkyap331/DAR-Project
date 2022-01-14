@@ -1,10 +1,12 @@
 data <- read.csv("./covid_vaccine_statewise.csv")
 print(data)
 
-install.packages("dplyr") 
+
+
+#install.packages("dplyr") 
 library(dplyr)
 
-View(data)
+
 df <- data.frame(data)
 str(df)
 summary(df)
